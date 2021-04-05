@@ -3,8 +3,16 @@ import turtle
 tortuguinha = turtle.Turtle()
 tortuguinha.shape('turtle')
 
-for i in range (0,4):
-    tortuguinha.forward(100)
-    tortuguinha.right(90)
+tortugo = turtle.Turtle()
+tortugo.shape('turtle')
+tortugo.color('blue')
 
-    turtle.mainloop()
+def faz_quadradin(the_turtle):
+
+    for i in range (0,4):
+        the_turtle.forward(100)
+        the_turtle.right(90)
+
+faz_quadradin(tortuguinha)
+tortugo.right(45)
+faz_quadradin(tortugo)
