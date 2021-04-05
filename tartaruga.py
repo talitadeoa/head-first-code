@@ -13,6 +13,8 @@ def faz_quadradin(the_turtle):
         the_turtle.forward(100)
         the_turtle.right(90)
 
-faz_quadradin(tortuguinha)
-tortugo.right(45)
-faz_quadradin(tortugo)
+def faz_espiral(the_turtle):
+    for i in range(0,36):
+        faz_quadradin(the_turtle)
+        the_turtle.right(10)
+
