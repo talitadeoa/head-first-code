@@ -10,7 +10,7 @@ def make_shape(t, sides):
         t.forward(100)
         t.right(angle)
 
-make_shape(tortuguinha, 3)
-make_shape(tortuguinha, 5)
-make_shape(tortuguinha, 8)
+make_shape(tortuguinha, 1)
+make_shape(tortuguinha, 2)
 make_shape(tortuguinha, 10)
+make_shape(tortuguinha, 20)
